@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'flecha.dart';
+import 'flecha_view.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const TrailsView());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class TrailsView extends StatelessWidget {
+  const TrailsView({super.key});
 
   @override
   Widget build(BuildContext context) {
