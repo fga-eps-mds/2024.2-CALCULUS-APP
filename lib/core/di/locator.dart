@@ -1,5 +1,7 @@
 import 'package:aranduapp/ui/content/di/di_content.dart';
 import 'package:aranduapp/core/network/token_manager/di/di_auth.dart';
+import 'package:aranduapp/ui/access_trails/di/di.dart';
+import 'package:aranduapp/ui/access_trails/service/access_trails_service.dart';
 import 'package:aranduapp/ui/edit_delete_user/di/di_edit_delete_user.dart';
 import 'package:aranduapp/ui/edit_password/di/di_edit_password.dart';
 import 'package:aranduapp/ui/edit_profile/di/di_edit_profile.dart';
@@ -29,4 +31,5 @@ void setupLocator() {
   setupContentDI();
   setupAuthDI();
   setupEditDeleteUser();
+  setupAccessTrails();
 }
